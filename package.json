@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create": "webpack"
+    "start": "webpack-dev-server --open"
   },
   "babel": {
-    "presents": [
+    "presets": [
       "env",
       "react"
     ]
